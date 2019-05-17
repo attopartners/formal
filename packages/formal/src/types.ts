@@ -24,7 +24,6 @@ export interface FormalFieldProps {
 export interface FormalResetButtonProps {
   disabled: boolean
 }
-
 export interface FormalSubmitButtonProps {
   disabled: boolean
 }

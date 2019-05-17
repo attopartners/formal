@@ -37,5 +37,6 @@
     "react-dom": "^16.8.6",
     "react-hooks-testing-library": "^0.4.0",
     "yup": "^0.27.0"
-  }
+  },
+  "gitHead": "5bf1d5d3b6a01edc95d1f78a371c40a6660426a4"
 }

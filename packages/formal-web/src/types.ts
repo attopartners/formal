@@ -14,7 +14,6 @@ export interface FormalWebTextFieldEvent {
     value: string
   }
 }
-
 export interface FormalWebFieldProps {
   name: string
   id: string

@@ -1,6 +1,7 @@
 {
   "private": true,
   "version": "0.0.0",
+  "name": "@attopartners/formal",
   "homepage": "https://github.com/kevinwolfcr/formal#readme",
   "workspaces": [
     "apps/*",

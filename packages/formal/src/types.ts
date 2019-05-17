@@ -21,7 +21,6 @@ export interface FormalFieldProps {
   value: any
   error?: string
 }
-
 export interface FormalResetButtonProps {
   disabled: boolean
 }

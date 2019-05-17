@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
@@ -7,13 +7,9 @@
       "allowBranch": "master",
       "conventionalCommits": true,
       "githubRelease": true,
-      "ignoreChanges": [
-        "!packages/**"
-      ],
+      "ignoreChanges": ["!packages/**"],
       "message": "chore(release): release %s 🚀 [skip ci]"
     }
   },
-  "packages": [
-    "packages/*"
-  ]
+  "packages": ["packages/*"]
 }

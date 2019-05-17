@@ -12,5 +12,8 @@
       ],
       "message": "chore(release): release %s 🚀 [skip ci]"
     }
-  }
+  },
+  "packages": [
+    "packages/*"
+  ]
 }

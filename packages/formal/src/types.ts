@@ -16,7 +16,6 @@ export interface FormalTextFieldEvent {
     value: string
   }
 }
-
 export interface FormalFieldProps {
   disabled: boolean
   value: any

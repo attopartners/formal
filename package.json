@@ -1,8 +1,8 @@
 {
   "private": true,
   "version": "0.0.0",
-  "name": "@kevinwolf/formal",
-  "homepage": "https://github.com/kevinwolfcr/formal#readme",
+  "name": "@attopartners/formal",
+  "homepage": "https://github.com/attopartners/formal#readme",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -10,14 +10,14 @@
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "test": "jest",
-    "prebuild": "yarn workspace @kevinwolf/formal run build",
-    "build": "yarn workspace @kevinwolf/formal-web run build && yarn workspace @kevinwolf/formal-native run build",
+    "prebuild": "yarn workspace @attopartners/formal run build",
+    "build": "yarn workspace @attopartners/formal-web run build && yarn workspace @kevinwolf/formal-native run build",
     "validate": "yarn build && yarn lint && yarn test --silent --coverage",
     "prerelease": "yarn build",
     "release": "dotenv lerna publish",
     "setup": "yarn install && yarn validate",
-    "start:web": "concurrently \"yarn build --watch\" \"yarn workspace @kevinwolf/formal-playground-web start\"",
-    "start:native": "concurrently \"yarn build --watch\" \"yarn workspace @kevinwolf/formal-playground-native start\""
+    "start:web": "concurrently \"yarn build --watch\" \"yarn workspace @attopartners/formal-playground-web start\"",
+    "start:native": "concurrently \"yarn build --watch\" \"yarn workspace @attopartners/formal-playground-native start\""
   },
   "dependencies": {},
   "devDependencies": {

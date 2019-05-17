@@ -11,7 +11,7 @@
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "test": "jest",
     "prebuild": "yarn workspace @attopartners/formal run build",
-    "build": "yarn workspace @attopartners/formal-web run build && yarn workspace @kevinwolf/formal-native run build",
+    "build": "yarn workspace @attopartners/formal-web run build && yarn workspace @attopartners/formal-native run build",
     "validate": "yarn build && yarn lint && yarn test --silent --coverage",
     "prerelease": "yarn build",
     "release": "dotenv lerna publish",

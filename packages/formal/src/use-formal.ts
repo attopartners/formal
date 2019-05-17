@@ -115,7 +115,7 @@ export default function useFormal<Schema>(
   )
 
 
-  const resetInitialValues = useCallback<Schema>((newInitialValues: Schema) => {
+  const resetInitialValues = useCallback((newInitialValues: Schema) => {
     setValues(newInitialValues)
     setLastValues(newInitialValues)
     clearErrors()
@@ -138,6 +138,6 @@ export default function useFormal<Schema>(
     getFieldProps,
     getResetButtonProps,
     getSubmitButtonProps,
-    resetInitialValues
+    resetInitialValues,
   }
 }

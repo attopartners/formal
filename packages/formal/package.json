@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "@kevinwolf/formal",
+  "name": "@attopartners/formal",
   "author": "Kevin Wolf <hi@kevinwolf.me>",
   "description": "Elegant form management primitives for the react hooks era",
   "license": "MIT",
